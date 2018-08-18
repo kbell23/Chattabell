@@ -23,6 +23,15 @@ import com.parse.ParseUser;
 
 public class MainActivity extends AppCompatActivity
 {
+    public void redirectIfLoggedIn()
+    {
+        if (ParseUser.getCurrentUser() != null)
+        {
+            Intent intent = new Intent(getApplicationContext(), UserListActivity.class);
+            startActivity(intent);
+        }
+    }
+
     /*
     Method for the act of logging into Chattabell. If the user already exists, the username and
     password gathered from the edit texts will be used to check with the Parse server to log the
@@ -32,15 +41,20 @@ public class MainActivity extends AppCompatActivity
     public void login(View view)
     {
 
-        EditText usernameEditText = (EditText) findViewById(R.id.usernameEditText);
+        final EditText usernameEditText = (EditText) findViewById(R.id.usernameEditText);
         EditText passwordEditText = (EditText) findViewById(R.id.passwordEditText);
 
         ParseUser.logInInBackground(usernameEditText.getText().toString(), passwordEditText.getText().toString(), new LogInCallback() {
             @Override
             public void done(ParseUser user, ParseException e) {
-                if (e == null){
-                    Log.i("User: "," Logged in");
-                }else{
+                if (e == null)
+                {
+                    Toast.makeText(MainActivity.this, "Welcome "
+                                    + usernameEditText.getText().toString(),
+                            Toast.LENGTH_SHORT).show();
+                    redirectIfLoggedIn();
+                }
+                else {
                     Toast.makeText(MainActivity.this, e.getMessage()
                             .substring(e.getMessage().indexOf(" ")), Toast.LENGTH_SHORT).show();
                 }
@@ -60,6 +74,8 @@ public class MainActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        redirectIfLoggedIn();
 
         ParseAnalytics.trackAppOpenedInBackground(getIntent());
     }

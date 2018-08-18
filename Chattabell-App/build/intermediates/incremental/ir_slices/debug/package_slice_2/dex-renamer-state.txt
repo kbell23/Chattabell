@@ -1,4 +1,4 @@
-#Sat Aug 11 21:53:37 CDT 2018
+#Tue Aug 14 20:41:26 CDT 2018
 base.0=/home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/build/intermediates/transforms/dexMerger/debug/2
 path.0=classes.dex
 renamed.0=classes.dex

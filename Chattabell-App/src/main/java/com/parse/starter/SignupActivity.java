@@ -1,5 +1,6 @@
 package com.parse.starter;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -10,7 +11,17 @@ import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.parse.SignUpCallback;
 
-public class SignupActivity extends AppCompatActivity {
+public class SignupActivity extends AppCompatActivity
+{
+
+    public void redirectIfLoggedIn()
+    {
+        if (ParseUser.getCurrentUser() != null)
+        {
+            Intent intent = new Intent(getApplicationContext(), UserListActivity.class);
+            startActivity(intent);
+        }
+    }
 
     /*
      Method for the act of signing up for Chattabell and making a new account to be added to
@@ -22,6 +33,7 @@ public class SignupActivity extends AppCompatActivity {
         EditText signupPasswordEditText = (EditText) findViewById(R.id.signupPasswordEditText);
         EditText signupEmailEditText = (EditText) findViewById(R.id.signupEmailEditText);
 
+        // sets up the user's password, username, and email.
         ParseUser user = new ParseUser();
 
         user.setUsername(signupUsernameEditText.getText().toString());
@@ -36,6 +48,7 @@ public class SignupActivity extends AppCompatActivity {
                     Toast.makeText(SignupActivity.this, "Welcome "
                             + signupUsernameEditText.getText().toString(),
                             Toast.LENGTH_SHORT).show();
+                    redirectIfLoggedIn();
                     } else {
                         String message = e.getMessage();
 
@@ -53,5 +66,6 @@ public class SignupActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
+        setTitle("Sign Up");
     }
 }

@@ -20,7 +20,6 @@ public class StarterApplication extends Application {
   public void onCreate() {
     super.onCreate();
 
-    // password: 8rl6T0zkCZkF for http://18.219.80.221:80/apps
     // Enable Local Datastore.
     Parse.enableLocalDatastore(this);
 

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:9:1-35:12
-INJECTED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:9:1-35:12
-INJECTED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:9:1-35:12
-INJECTED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:9:1-35:12
+ADDED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:9:1-37:12
+INJECTED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:9:1-37:12
+INJECTED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:9:1-37:12
+INJECTED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:9:1-37:12
 MERGED from [com.android.support:multidex:1.0.2] /home/kevin/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/c099bc70ea96993272ca44d5061020e9/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services:9.4.0] /home/kevin/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/5c29db34f6aba4d4cdb2373b1b710c68/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /home/kevin/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/c8abc9c951dae18a74379257758822d6/AndroidManifest.xml:2:1-10:12
@@ -60,20 +60,20 @@ MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /home/kevin/.grad
 MERGED from [com.google.android.gms:play-services-basement:9.4.0] /home/kevin/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.4.0.aar/ac6c49f20b477446ec8ba8a0cb057985/AndroidManifest.xml:16:1-26:12
 MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/kevin/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/954681d9350c5bf890281963cc074ebd/AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.support:support-v4:23.4.0] /home/kevin/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/e1e2405aad3ecbf6815f092f2e635e27/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:9:1-35:12
-INJECTED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:9:1-35:12
-INJECTED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:9:1-35:12
+INJECTED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:9:1-37:12
+INJECTED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:9:1-37:12
+INJECTED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:9:1-37:12
 	package
 		ADDED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:10:5-32
 		INJECTED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml
 		INJECTED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml
-		ADDED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:9:1-35:12
+		ADDED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:9:1-37:12
 		INJECTED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml
-		ADDED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:9:1-35:12
+		ADDED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:9:1-37:12
 		INJECTED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:9:11-69
@@ -136,7 +136,7 @@ ADDED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/And
 	android:name
 		ADDED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:15:22-76
 application
-ADDED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:17:5-33:19
+ADDED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:17:5-35:19
 MERGED from [com.google.android.gms:play-services:9.4.0] /home/kevin/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/5c29db34f6aba4d4cdb2373b1b710c68/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services:9.4.0] /home/kevin/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/5c29db34f6aba4d4cdb2373b1b710c68/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /home/kevin/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/c8abc9c951dae18a74379257758822d6/AndroidManifest.xml:5:5-9:19
@@ -238,13 +238,13 @@ MERGED from [com.android.support:support-v4:23.4.0] /home/kevin/.gradle/caches/t
 	android:theme
 		ADDED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:22:9-40
 	android:name
-		ADDED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:18:9-60
+		ADDED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:18:9-43
 activity#com.parse.starter.MainActivity
 ADDED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:23:9-31:20
 	android:label
 		ADDED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:25:13-45
 	android:name
-		ADDED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:24:13-58
+		ADDED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:24:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
@@ -256,9 +256,17 @@ ADDED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/And
 	android:name
 		ADDED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:29:27-74
 activity#com.parse.starter.SignupActivity
-ADDED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:32:9-78
+ADDED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:32:9-52
 	android:name
-		ADDED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:32:19-66
+		ADDED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:32:19-49
+activity#com.parse.starter.UserListActivity
+ADDED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:33:9-54
+	android:name
+		ADDED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:33:19-51
+activity#com.parse.starter.ChatActivity
+ADDED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:34:9-59
+	android:name
+		ADDED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml:34:19-47
 uses-sdk
 INJECTED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/kevin/Desktop/Chattabell/Chattabell/Chattabell-App/src/main/AndroidManifest.xml
